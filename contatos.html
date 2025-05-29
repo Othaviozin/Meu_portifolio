@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Meu portifólio.css">
+</head>
+
+<body>
+    <header>
+        <div class="cabeça">
+            <div class="zoom-div"><a href="Meu portifólio.html" style="color: aliceblue;">Home</a></div>
+            <div class="zoom-div"><a href="sobre.html" style="color: aliceblue;">Sobre</a></div>
+            <div class="zoom-div" style="background-color:#2aac2f;"><a href="contatos.html"
+                    style="color: aliceblue;">Contato</a></div>
+            <div class="zoom-div"><a href="feedback.html" style="color: aliceblue;">Feedback</a></div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="esquerda">
+                <h2>Minhas Redes</h2>
+                <a href="https://www.linkedin.com/in/seu-perfil" target="_blank">LinkedIn</a>
+                <a href="https://github.com/othaviozin" target="_blank">GitHub</a>
+            </div>
+
+            <div class="direita">
+                <h2>Formulário de Contato</h2>
+                <form action="mailto:seuemail@exemplo.com" method="POST" enctype="text/plain">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="assunto">Assunto:</label>
+                    <input type="text" id="assunto" name="assunto">
+
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p style="color: aliceblue;">&copy; 2025 Othávio - Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
